@@ -1,0 +1,17 @@
+.text1{
+     color: gray;
+     text-align: center;
+     padding-top: 50px;
+}
+.fs-1{
+    font-size: 60px !important;
+}
+.max{
+    max-width: 250px;
+}
+.font{
+    font-family: 'Lato', sans-serif;
+}
+.max1{
+    max-width:80%;
+}

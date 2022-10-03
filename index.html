@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page 2</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&display=swap" rel="stylesheet">
+    <!-- CSS bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bootstrat-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- css nativo-->
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="font">
+  <nav class="navbar navbar-expand-lg bg-ligth">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <i class="bi bi-building" style="font-size:30px; color:gray"> </i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#text"> Quem somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Serviços
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Alugar</a></li>
+              <li><a class="dropdown-item" href="#">Comprar</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#form">cadastrar imovel</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit" >Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner-1.jpg" class="d-block w-100" style="height: 550px;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-2.jpg" class="d-block w-100" style="height: 550px;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-3.jpg" class="d-block w-100" style="height: 550px;" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text1 max1 m-auto" id="text">
+    <h1> IMOVEIS EM MELHOR PREÇO</h1>
+    <p> 
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor pariatur, magni rem ea, iusto cum delectus illum voluptatum provident molestiae laboriosam labore libero voluptatibus sed! Ad cumque laborum asperiores qui.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor pariatur, magni rem ea, iusto cum delectus illum voluptatum provident molestiae laboriosam labore libero voluptatibus sed! Ad cumque laborum asperiores qui.
+    </p>
+  </div>
+  <div class="d-lg-flex justify-content-evenly">
+    <div class="d-flex flex-column text-center max m-auto">
+      <i class="bi bi-alarm fs-1 text-secondary"></i>
+      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="d-flex flex-column text-center max m-auto">
+      <i class="bi bi-watch fs-1 text-secondary"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="d-flex flex-column text-center max m-auto">
+      <i class="bi bi-calendar-check fs-1 text-secondary"></i>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing placeat deserunt ad hic, soluta ut dolore molestias reiciendis.</p>
+    </div>
+  </div>
+  <div class="text-center d-flex flex-column justify-content-center" id="form">
+    <h1 class="mt-3 text-secondary">
+      CADASTRO
+    </h1>
+    <form class="w-50 m-auto">
+      <div class="mb-4">
+        <label for="inputEmail4" class="form-label"> Nome</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="mb-4">
+        <label for="inputPassword4" class="form-label"> Sobrenome</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="mb-4">
+        <label for="inputAddress" class="form-label"> Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="">
+      </div>
+      <div class="mb-4">
+        <label for="inputAddress2" class="form-label">Endereço do imóvel</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="">
+      </div>
+      <div class="mb-4">
+        <label for="inputCity" class="form-label"> contato </label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="mb-4">
+        <label for="inputState" class="form-label"> quartos</label>
+        <select id="inputState" class="form-select">
+          <option selected> 1</option>
+          <option> 2</option>
+          <option> 3</option>
+          <option> 4</option>
+          <option> outros</option>
+        </select>
+      </div>
+      <div class="mb-4">
+        <label for="inputState" class="form-label"> banheiros</label>
+        <select id="inputState" class="form-select">
+          <option selected> 1</option>
+          <option> 2</option>
+          <option> 3</option>
+          <option> 4</option>
+          <option> outros</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <button type="submit" class="btn btn-secondary px-5"> Enviar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
